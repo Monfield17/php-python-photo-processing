@@ -12,7 +12,19 @@ The goal of this repository is to present clean code structure, cross‑language
 
 ---
 
-## 📁 Project Structure
+## Project Structure 
+``` 
+src/
+  Batch/
+    PhotoBatchProcessor.php
+  Ai/
+    PhotoAiRunner.php
+scripts/
+  analyze.py
+test.php
+```
+
+
 
 
 
