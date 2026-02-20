@@ -1,15 +1,18 @@
-# PHP + Python – ukázka AI zpracování fotek
+# PHP + Python – Example of Image Processing Integration
 
-Tento mini projekt ukazuje:
+This project demonstrates a simple integration between a PHP application and an external Python script.  
+It is designed as a small technical showcase of:
 
-- dávkové zpracování fotek v PHP (`PhotoBatchProcessor`)
-- volání Python skriptu z PHP (`PhotoAiRunner`)
-- jednoduchý AI výstup z Pythonu (`analyze.py`)
-- testovací skript (`test.php`)
+- batch-style image processing in PHP (`PhotoBatchProcessor`)
+- calling a Python script from PHP (`PhotoAiRunner`)
+- a minimal AI-like JSON output from Python (`analyze.py`)
+- a simple test runner (`test.php`)
 
-## Spuštění
+The goal of this repository is to present clean code structure, cross‑language integration, and basic data processing logic.
 
-1. Mít nainstalovaný PHP a Python 3.
-2. Nastavit oprávnění pro Python skript:
-   ```bash
-   chmod +x scripts/analyze.py
+---
+
+## 📁 Project Structure
+
+
+
